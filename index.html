@@ -587,12 +587,12 @@ function renderStep6() {
   let body = `<div class="step-head noprint"><span class="step-num">5</span><span class="step-title">申告書プレビュー</span></div>`;
 
   body += `<div class="previewLabel docTitle">位置保持型膨脹式救命いかだ等の搭載を要しない方法を利用するための申告書</div>`;
-  body += `<div class="previewPlain">＿＿＿＿＿＿＿殿</div>`;
+  body += `<div class="previewPlain">＿＿＿＿＿＿＿＿＿＿＿殿</div>`;
   body += `<table class="infoTable">
-    <tr><td class="lbl">提出日</td><td class="val">西暦＿＿＿年＿＿＿＿月＿＿＿＿日</td></tr>
-    <tr><td class="lbl">住所</td><td class="val">${state.ownerAddr||'＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿'}</td></tr>
+    <tr><td class="lbl">提出日</td><td class="val">西暦＿＿＿＿年＿＿月＿＿日</td></tr>
+    <tr><td class="lbl">住所</td><td class="val">${state.ownerAddr||'＿＿＿＿＿＿＿＿＿＿＿＿＿＿'}</td></tr>
     <tr><td class="lbl" rowspan="2">船舶所有者<br>氏名又は名称</td><td class="val"></td></tr>
-    <tr><td class="val">${state.ownerName||'＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿'}</td></tr>
+    <tr><td class="val">${state.ownerName||'＿＿＿＿＿＿＿＿＿＿＿＿＿＿'}</td></tr>
     <tr><td class="lbl">電話番号</td><td class="val">${state.tel.join('-')}</td></tr>
   </table>`;
   body += `<div class="previewPlain">
