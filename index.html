@@ -673,8 +673,8 @@ function initDateSelects(){
     const cur = state.submitDate.y;
     ySel.innerHTML = '<option value="">年</option>';
     const list = [];
-    if (era === '令和') { for (let i=8;i<=30;i++) list.push(i); }
-    else { for (let i=2026;i<=2050;i++) list.push(i); }
+    if (era === '令和') { for (let i=8;i<=12;i++) list.push(i); }
+    else { for (let i=2026;i<=2030;i++) list.push(i); }
     list.forEach(v => {
       const o = document.createElement('option');
       o.value = v;
